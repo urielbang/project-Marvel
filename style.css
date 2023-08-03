@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+.marveLogo {
+  width: 5vw;
+  height: 5vh;
+}
+
+.btn-outline-success {
+  color: red;
+  border-color: red;
+}
+.btn-outline-success:hover {
+  background-color: red;
+  border: red;
+}
+.main {
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+  background-color: black;
+  justify-content: end;
+}
+.marvelGif {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+@font-face {
+  font-family: uriel;
+  src: url(fonts/EduSABeginner-Bold.ttf);
+}
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 22.3vh;
+  background-color: #151515;
+  justify-content: space-around;
+}
+.iconFooter {
+  width: 50px;
+  height: 50px;
+}
+.folowIcons {
+  display: flex;
+  width: 22%;
+  justify-content: space-around;
+  align-items: center;
+  font-family: uriel;
+  color: #767676;
+}
+.footer svg {
+  width: 50px;
+  height: 120px;
+}
+.icon--svg--gray-fill {
+  fill: #767676;
+}
+.icon--svg--gray-fill:hover {
+  filter: brightness(70%);
+}

@@ -1,0 +1,17 @@
+.mainVideos {
+  width: 100vw;
+  height: 250vh;
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+iframe {
+  width: 30vw;
+  height: 25vw;
+}
+@media only screen and (max-width: 600px) {
+  .mainVideos {
+    flex-direction: column;
+  }
+}

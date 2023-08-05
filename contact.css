@@ -10,5 +10,16 @@
 }
 
 .form-group input {
-  width: 50%;
+  width: 90%;
+}
+form {
+  align-self: center;
+}
+.btn {
+  background-color: red;
+  border: red;
+}
+.btn:hover {
+  background-color: red;
+  opacity: 0.6;
 }

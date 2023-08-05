@@ -1,0 +1,15 @@
+.mainAbout {
+  width: 100vw;
+  height: 70vh;
+  background-image: url(fotos/contact4.jpg);
+  background-size: contain;
+}
+.mainAbout p {
+  font-family: uriel;
+  text-align: start;
+  font-size: 60px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.32);
+  font-variant: small-caps;
+  font-weight: bolder;
+}

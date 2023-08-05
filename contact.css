@@ -1,0 +1,14 @@
+.mainContact {
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+  flex-direction: column;
+}
+.mainContact h1 {
+  text-align: center;
+  font-family: uriel;
+}
+
+.form-group input {
+  width: 50%;
+}
